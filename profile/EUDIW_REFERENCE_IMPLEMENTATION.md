@@ -47,7 +47,7 @@ This section provides an overview over the EUDI Reference Implementation project
 | Name | Description    | Link |
 | -------- | ------- |------- |
 |eudi-lib-android-iso18013-holder| mdoc Holder application (Implementation of ISO/IEC 18013-5 for Android) | [Repository](https://github.com/eu-digital-identity-wallet/eudi-lib-android-iso18013-holder)|
-|eudi-lib-android-iso18013-holder| mdoc Reader app (The repository will include a link to the compiled app) | [Repository](https://github.com/eu-digital-identity-wallet/eudi-lib-android-iso18013-holder)|
+|eudi-lib-android-iso18013-holder| mdoc Reader app (The repository will include a link to the compiled app) | [Repository](https://github.com/eu-digital-identity-wallet/eudi-lib-android-iso18013-holder/blob/main/wiki/TEST.md)|
 
 
 - **For 'Same Device Online Authentication'**
