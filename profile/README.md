@@ -4,7 +4,7 @@ The European Digital Identity will be available to EU citizens, residents, and b
 
 Every EU citizen and resident in the Union will be able to use a personal digital wallet
 
-* https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-digital-identity_en
+* https://digital-strategy.ec.europa.eu/en/policies/electronic-identification
 
 
 ## The European Digital Identity Wallet Architecture and Reference Framework
