@@ -1,4 +1,3 @@
-
 [Digital Strategy](https://digital-strategy.ec.europa.eu//en)> [Policies](https://digital-strategy.ec.europa.eu/en/policies)>[Electronic Identification](https://digital-strategy.ec.europa.eu//en/policies/electronic-identification)
 
 ![An illustrative header graphic reading Digital Identity for all Europeans - Apersonal digital wallet for EU citizens and residents](https://joinup.ec.europa.eu/sites/default/files/inline-images/EUDI.png)
@@ -13,8 +12,8 @@ Member States will offer citizens and businesses digital wallets that will be ab
 
 The EU Digital Identity Wallet will be:
 
-* **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
-* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
+* **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
+* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
 * **controlled by users**: The EU Digital Identity Wallets will enable people to choose and keep track of their identity, data and certificates which they share with third parties. Anything which is not necessary to share will not be shared.
 
 Consumers should also be able to access services online without having to use private platforms or unnecessarily sharing personal data. They will have full control of the data they share.
@@ -28,47 +27,7 @@ The Recommendation specifies that these outcomes will serve as a basis for the i
 The Recommendation foresees that the Toolbox is developed by Member States’ experts in the eIDAS Expert Group  in close coordination with the Commission and, where relevant for the functioning of the European
 Digital Identity (EUDI) Wallet infrastructure, other concerned public and private sector parties.
 
-This repository contains the "[Architecture and Reference Framework](arf.md)" (hereinafter the [ARF](arf.md)).
-
 The current **authoritative version** is tagged as [realease/tag in this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/releases).
-
-### Build
-While the ARF is maintained in `Markdown`, this repository provides a process for generating `HTML`, `DOCX`, and `PDF` (work in progress) instances.
-
-Generate the derived files
-```bash
-make all
-```
-
-Clean up
-```bash
-make clean
-```
-
-#### Prerequisites
-* `pandoc`
-
-Install it (Ubuntu 22.04)
-```bash
-sudo apt install pandoc
-```
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/tags). 
-
-### Authors
-
-See the list of [contributors](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/graphs/contributors) who participated in this project.
-
-### License
-
-This project is licensed under the [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) - see the
-[LICENSE.txt](LICENSE) file for details.
 
 ## The Wallet Prototype pilot implementation
 
