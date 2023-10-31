@@ -2,8 +2,8 @@
 
 ![An illustrative header graphic reading Digital Identity for all Europeans - Apersonal digital wallet for EU citizens and residents](https://joinup.ec.europa.eu/sites/default/files/inline-images/EUDI.png)
 
-# The EU Digital Identity Wallet 
-## The propsed Digital Identity Regulation
+# EU Digital Identity Wallet 
+## Proposed Digital Identity Regulation
 
 Under the [Electronic Identification, Authentication and Trust Services (eIDAS) Regulation](https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation), EU Member States may, on a voluntary basis, notify and recognise, national electronic identification schemes in their Member States. The recognition of notified electronic identification became mandatory in 2018.
 Yet, there is no requirement for Member States to develop a national electronic identification and to make it interoperable with those in other Member States. This has led to discrepancies between countries.
@@ -18,7 +18,7 @@ The EU Digital Identity Wallet will be:
 
 Consumers should also be able to access services online without having to use private platforms or unnecessarily sharing personal data. They will have full control of the data they share.
 
-## The Architecture and Reference Framework
+## Architecture and Reference Framework
 
 On 3 June 2021, the European Commission adopted a Recommendation calling on Member States to work towards the development of a [a common toolbox](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox) including a technical Architecture and Reference Framework a set of common standards and technical specifications and a set of common guidelines and best practices.
 
@@ -29,7 +29,7 @@ Digital Identity (EUDI) Wallet infrastructure, other concerned public and privat
 
 The current **authoritative version** is tagged as [realease/tag in this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/releases).
 
-## The Wallet Prototype pilot implementation
+## Wallet Reference Implementation
 
 Under the Digital Europe Programme, the Commission is facilitating [work to develop, implement and scale up the European Digital Identity framework](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation). The actions aim to arrive at a set of technical references, standards, components and solutions including an application of the EU Digital Identity Wallet to be made available to Member States.
 
