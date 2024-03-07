@@ -1,3 +1,4 @@
+
 [Digital Strategy](https://digital-strategy.ec.europa.eu//en)> [Policies](https://digital-strategy.ec.europa.eu/en/policies)>[Electronic Identification](https://digital-strategy.ec.europa.eu//en/policies/electronic-identification)
 
 ![An illustrative header graphic reading Digital Identity for all Europeans - Apersonal digital wallet for EU citizens and residents](https://joinup.ec.europa.eu/sites/default/files/inline-images/EUDI.png)
@@ -12,8 +13,8 @@ Member States will offer citizens and businesses digital wallets that will be ab
 
 The EU Digital Identity Wallet will be:
 
-* **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
-* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
+* **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
+* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
 * **controlled by users**: The EU Digital Identity Wallets will enable people to choose and keep track of their identity, data and certificates which they share with third parties. Anything which is not necessary to share will not be shared.
 
 Consumers should also be able to access services online without having to use private platforms or unnecessarily sharing personal data. They will have full control of the data they share.
@@ -29,9 +30,15 @@ Digital Identity (EUDI) Wallet infrastructure, other concerned public and privat
 
 The current **authoritative version** is tagged as [realease/tag in this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/releases).
 
-## Wallet Reference Implementation
+## ⭐Wallet Reference Implementation - Open Source Code
+
+🚀 EUDI Wallet open source code is now available online. The journey has just started, please [join us](https://github.com/orgs/eu-digital-identity-wallet/repositories)! 
+
+For further information please visit: [EUDI Wallet Reference Implementation](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md).
 
 Under the Digital Europe Programme, the Commission is facilitating [work to develop, implement and scale up the European Digital Identity framework](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation). The actions aim to arrive at a set of technical references, standards, components and solutions including an application of the EU Digital Identity Wallet to be made available to Member States.
+
+The EUDI Wallet Reference Implementation is built based on the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework) and aims at showcasing a robust and interoperable platform for digital identification, authentication and electronic signatures based on common standards across the European Union.
 
 ## Related Content
 
@@ -47,7 +54,7 @@ Frequently Asked Question about the proposed Digital Identity Regulation
 
 #### Last update
 
-29 June 2023
+29 February 2024
 
 ## About us
 
