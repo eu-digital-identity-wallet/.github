@@ -1,5 +1,7 @@
 :memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) :question:[FAQ](#frequently-asked-questions) :computer: [Repositories](#repositories) :wrench:[How to Use](#how-to-use) :heavy_exclamation_mark: [Disclaimer](#disclaimer) :information_source:[About the project](#about-the-project)
 
+![Reference Implementation for Digital Identity for all Europeans](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner-ri.png)
+
 # EUDI Wallet Reference Implementation 
 
 ## Overview
@@ -57,18 +59,18 @@ As of February 2024, the following remarks shall be considered in relation to th
 
 # Repositories
 
-This section provides an overview of the key repositories of the EUDI Reference Implementation. The table below acts as navigation aid to find the information you are looking for.
+This section provides an overview of the key repositories of the EUDI Reference Implementation. The table below acts as navigation aid to find the information you are looking for. $\color{red}{\text{Red coloured repositories}}$ refer to both iOS and Android implementations, $\color{grey}{\text{grey coloured repositories}}$ refer to iOS implementation, and $\color{green}{\text{green coloured repositories}}$ refer to Android implementation.
 
 ## Libraries
 
-### Wallet Core (Android) and Wallet Kit (iOS) Coordinator Libraries
+### $\color{red}{\text{Wallet Core (Android) and Wallet Kit (iOS) Coordinator Libraries}}$
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
-| [Wallet Core (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-core) | Implementation of the EUDI Wallet Core library for Android that serves as a coordinator layer between the UI app and the Wallet libraries. Currently, coordinates issuing, proximity and remote presentation libraries. |
+| [Wallet Core (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-core) | Implementation of the EUDI Wallet Core library for Android that serves as a coordinator layer between the UI app and the Wallet libraries. Currently, coordinates issuing, proximity and remote presentation libraries.|
 | [Wallet Kit (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-wallet-kit) | Implementation of the EUDI Wallet Kit library for iOS that serves as a coordinator layer between the UI app and the Wallet libraries. Currently coordinates issuing, proximity and remote presentation libraries.      |
 
-### Proximity Sharing iOS Libraries
+### $\color{grey}{\text{Proximity Sharing iOS Libraries}}$
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
@@ -77,13 +79,13 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | [mDoc Data Model (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-iso18013-data-model)    | Implementation of the mDoc data-model according to ISO/IEC 18013-5.           | 
 
 
-### Proximity Sharing Android Libraries
+### $\color{green}{\text{Proximity Sharing Android Libraries}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [mDoc Data Transfer (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-android-iso18013-data-transfer) | This library provides a set of classes to manage the transfer of documents in an EUDI ISO 18013-5 Android Wallet. |
 
-### Remote Presentation iOS Libraries
+### $\color{grey}{\text{Remote Presentation iOS Libraries}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
@@ -92,7 +94,7 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | [SD-JWT (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-sdjwt-swift)                       | SD-JWT library for creating and verifying SD-JWT in JVM Swift.             | 
 
 
-### Remote Presentation Android Libraries
+### $\color{green}{\text{Remote Presentation Android Libraries}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
@@ -100,31 +102,31 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | [SIOPv2 & OpenID4VP protocols (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-siop-openid4vp-kt) | Implementation of SIOPv2 and OpenID4VP protocols (wallet's role) in Kotlin. | 
 | [SD-JWT (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-sdjwt-kt)                        | SD-JWT library for creating and verifying SD-JWT in JVM Kotlin.             | 
 
-### Ιssuing iOS Libraries
+### $\color{grey}{\text{Ιssuing iOS Libraries}}$
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
 | [OpenId4VCI (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-openid4vci-swift) | Implementation of credential management supporting the OpenId4VCI (draft 12) protocol. | 
 
-### Ιssuing Android Libraries
+### $\color{green}{\text{Ιssuing Android Libraries}}$
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
 | [OpenId4VCI (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-openid4vci-kt)      | Implementation of credential management supporting the OpenId4VCI (draft 12) protocol.|
 
-### Wallet Data Storage and Cryptographic Management iOS Libraries
+### $\color{grey}{\text{Wallet Data Storage and Cryptographic Management iOS Libraries}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [mDoc Document Storage (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-wallet-storage) |  Storage for keys and wallet documents |
 
-### Wallet Data Storage and Cryptographic Management Android Libraries
+### $\color{green}{\text{Wallet Data Storage and Cryptographic Management Android Libraries}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [mDoc Document Storage (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-document-manager)    | This library provides a set of classes to manage documents and their cryptographic keys in an EUDI Android Wallet. |
 
-## Wallet UI App and demo App for Android and iOS
+## $\color{red}{\text{Wallet UI App and demo App for Android and iOS}}$
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
@@ -145,16 +147,25 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | [OpenId4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenId4VCI - draft12, in Python. Available at https://issuer.eudiw.dev/  |  
 | [OpenId4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenId4VCI - draft12, in JVM Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
 
-# How to use
+# Get started
 
+<table><td>
+<img src="https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/get-started.png" lat ="Get Started with Digital Identity for all Europeans"/>
+</td>
+
+<td>
 Instructions for installing and using the applicable applications/libraries can be found in the corresponding 'ReadMe' files, i.e.:
 
-- [Build your Demo App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui)
-- [Build your Demo App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui)
-- [Verifier for Remote Presentation](https://verifier.eudiw.dev/)
+- [Build your Demo App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) assists on installing the mobile wallet application on Android phones. There is also information on how to actually start developing extensions on the Android platform implementation. 
+- [Build your Demo App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui) assists on installing the mobile wallet application on iPhone. There is also information on how to actually start developing extensions on the iPhone platform implementation. 
+- [Verifier for Remote Presentation](https://verifier.eudiw.dev/) assists on testing the wallet application using an online verifier. 
   - **Note:** external link to web verifier app
-- [App Verifier for Proximity (Android)](https://install.appcenter.ms/orgs/eu-digital-identity-wallet/apps/mdoc-verifier-testing/distribution_groups/eudi%20verifier%20(testing)%20public)
+- [App Verifier for Proximity (Android)](https://install.appcenter.ms/orgs/eu-digital-identity-wallet/apps/mdoc-verifier-testing/distribution_groups/eudi%20verifier%20(testing)%20public) assists on installing a verifier application for testing proximity case on the wallet application.
   - **Note:** external link to APK download
+- [Issuer Application](https://issuer.eudiw.dev/) assists on issuing attestations for the wallet application.
+  - **Note:** external link to issuer app
+
+</td></table>
 
 # Disclaimer
 
