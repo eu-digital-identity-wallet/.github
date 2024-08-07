@@ -31,11 +31,11 @@ The current scope of the EUDI Wallet Reference Implementation includes first ite
 <Details open>
  <summary><i>Functional Scope Remarks </i></summary>
 
-As of February 2024, the following remarks shall be considered in relation to the provided functionalities.
+As of June 2024, the following remarks shall be considered in relation to the provided functionalities.
 
 ### Remote Presentation
 
-- Same-device and cross-device flows for online authentication and authorization (OpenID4VP transferring mDoc for remote authentication and authorisation)
+- Same-device and cross-device flows for online authentication and authorization (OpenID4VP (draft 20) transferring mDoc for remote authentication and authorisation)
 - Applicable platforms: Android, iOS
 
 ### Proximity Sharing
@@ -46,7 +46,7 @@ As of February 2024, the following remarks shall be considered in relation to th
 
 ### Issuing
 
-- An implementation of a credential issuing service, according to OpenId4VCI - draft12 (provides test PID and mDL issuing service in mDoc and soon in SD-JWT-VC format)
+- An implementation of a credential issuing service, according to OpenId4VCI (draft 13) (provides test PID and mDL issuing service in mDoc and soon in SD-JWT-VC format)
 
 </Details>
 
@@ -88,7 +88,7 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [Presentation Exchange (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-presentation-exchange-swift)        | Implementation of DIF Presentation Exchange v2 specification in Swift.     | 
-| [SIOPv2 & OpenID4VP protocols (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-siop-openid4vp-swift) | Implementation of SIOPv2 and OpenID4VP protocols (wallet's role) in Swift. |
+| [SIOPv2 & OpenID4VP protocols (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-siop-openid4vp-swift) | Implementation of SIOPv2 and OpenID4VP (draft 20) protocols (wallet's role) in Swift. |
 | [SD-JWT (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-sdjwt-swift)                       | SD-JWT library for creating and verifying SD-JWT in JVM Swift.             | 
 
 
@@ -97,20 +97,20 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [Presentation Exchange (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-presentation-exchange-kt)        | Implementation of DIF Presentation Exchange v2 specification in Kotlin.     |
-| [SIOPv2 & OpenID4VP protocols (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-siop-openid4vp-kt) | Implementation of SIOPv2 and OpenID4VP protocols (wallet's role) in Kotlin. | 
+| [SIOPv2 & OpenID4VP protocols (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-siop-openid4vp-kt) | Implementation of SIOPv2 and OpenID4VP (draft 20) protocols (wallet's role) in Kotlin. | 
 | [SD-JWT (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-sdjwt-kt)                        | SD-JWT library for creating and verifying SD-JWT in JVM Kotlin.             | 
 
 ### Ιssuing iOS Libraries
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
-| [OpenId4VCI (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-openid4vci-swift) | Implementation of credential management supporting the OpenId4VCI (draft 12) protocol. | 
+| [OpenId4VCI (iOS)](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-openid4vci-swift) | Implementation of credential management supporting the OpenId4VCI (draft 13) protocol. | 
 
 ### Ιssuing Android Libraries
 
 | Repository          | Description                                                                   | 
 |---------------|-------------------------------------------------------------------------------|
-| [OpenId4VCI (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-openid4vci-kt)      | Implementation of credential management supporting the OpenId4VCI (draft 12) protocol.|
+| [OpenId4VCI (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-openid4vci-kt)      | Implementation of credential management supporting the OpenId4VCI (draft 13) protocol.|
 
 ### Wallet Data Storage and Cryptographic Management iOS Libraries
 
@@ -142,8 +142,8 @@ This section provides an overview of the key repositories of the EUDI Reference 
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
-| [OpenId4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenId4VCI - draft12, in Python. Available at https://issuer.eudiw.dev/  |  
-| [OpenId4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenId4VCI - draft12, in JVM Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
+| [OpenId4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in Python. Available at https://issuer.eudiw.dev/  |  
+| [OpenId4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in JVM Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
 
 # How to use
 
