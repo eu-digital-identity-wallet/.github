@@ -1,4 +1,4 @@
-:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) :question:[FAQ](#frequently-asked-questions) :computer: [Repositories](#repositories) :wrench:[How to Use](#how-to-use) :heavy_exclamation_mark: [Disclaimer](#disclaimer) :information_source:[About the project](#about-the-project)
+:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) :computer: [Repositories](#repositories) :wrench:[How to Use](#how-to-use) :heavy_exclamation_mark: [Disclaimer](#disclaimer) :information_source:[About the project](#about-the-project)
 
 # EUDI Wallet Reference Implementation 
 
@@ -18,8 +18,7 @@ Please refer to our documentation and repositories listed in the following secti
 
 ## Functional Scope
 
-The current scope of the EUDI Wallet Reference Implementation includes first iterations of key functionalities: Issuing, Sharing and Presenting Personal Identification Data (PID) and Mobile Driving License (mDL) in Remote and Proximity scenarios. Based on these functionalities, a broad set of Use Cases are supported as a minimum, such as:
-
+The scope of the EUDI Wallet Reference Implementation is released in an iterative approach focusing on key functionalities which enable the support for a broad set of Use Cases, indicatively:
 - Mobile Driving License
 - Accessing online public and private services
 - Opening a bank account
@@ -27,11 +26,10 @@ The current scope of the EUDI Wallet Reference Implementation includes first ite
 - Payment authorisation
 - Authenticating a third-party service to sign documents
 - Etc.
+ 
 
-<Details open>
- <summary><i>Functional Scope Remarks </i></summary>
 
-As of June 2024, the following remarks shall be considered in relation to the provided functionalities.
+The following remarks shall be considered in relation to the provided functionalities.
 
 ### Remote Presentation
 
@@ -46,13 +44,32 @@ As of June 2024, the following remarks shall be considered in relation to the pr
 
 ### Issuing
 
-- An implementation of a credential issuing service, according to OpenId4VCI (draft 13) (provides test PID and mDL issuing service in mDoc and soon in SD-JWT-VC format)
+- An implementation of a credential issuing service, according to OpenId4VCI (draft 13) (provides test PID and mDL issuing service in mDoc and SD-JWT-VC format)
 
+## Roadmap
+The roadmap of the EUDI Wallet reference implementation provides a transparent view of the features and enhancements that are currently being developed or planned to the future. Its purpose is to promote open communication and collaboration in our community.
+
+You can view further details in [EUDI Wallet Reference Implementation Roadmap](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap). 
+
+
+## Contributions and Feedback
+
+We encourage you to contribute or provide your feedback/suggestion for the EUDI Wallet Reference Implementation. Depending on the type of feedback you wish to provide, you may utilise one of the following channels:
+<Details>
+ <summary>Code contributions</summary> 
+Comments and contributions on the codebase of the EUDI Wallet Reference Implementation are welcomed through the corresponding <a href="https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework">Github space</a>. 
 </Details>
 
-## Frequently Asked Questions
+<Details>
+<summary>Roadmap suggestions</summary> 
+If you have any questions or comments about the features listed on the roadmap or wish to suggest new features, please reach out via the <a href="https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/discussions)">Discussions forum</a>.
+</Details>
 
-[Frequently Asked Questions](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/FAQ.md) about the EUDI Wallet Reference Implementation.
+<Details>
+ <summary>Other feedback</summary> 
+A designated mailbox <a href="CNECT-EUDIW-SUPPORT@ec.europa.eu">CNECT-EUDIW-SUPPORT@ec.europa.eu</a> is available where any queries related to the Wallet Reference Implementation can be addressed.
+</Details>
+
 
 
 # Repositories
@@ -145,7 +162,9 @@ This section provides an overview of the key repositories of the EUDI Reference 
 | [OpenId4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in Python. Available at https://issuer.eudiw.dev/  |  
 | [OpenId4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in JVM Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
 
-# How to use
+# FAQ and 'How To' guides
+
+A list of [Frequently Asked Questions](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/FAQ.md) about the EUDI Wallet Reference Implementation are consolidated.
 
 Instructions for installing and using the applicable applications/libraries can be found in the corresponding 'ReadMe' files, i.e.:
 
