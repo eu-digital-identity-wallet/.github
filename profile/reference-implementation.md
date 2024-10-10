@@ -1,4 +1,4 @@
-:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) :computer: [Repositories](#repositories) :wrench:[How to Use](#how-to-use) :heavy_exclamation_mark: [Disclaimer](#disclaimer) :information_source:[About the project](#about-the-project)
+:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) :computer: [Repositories](#repositories) :wrench:[How to Use](#how-to-use):heavy_exclamation_mark:[Disclaimer](#disclaimer) :information_source:[About the project](#about-the-project)
 
 # EUDI Wallet Reference Implementation 
 
@@ -191,9 +191,5 @@ The released software is a initial development release version:
 
 # About the project
 
-Links for additional information:  
-
-- [Electronic Identification](https://digital-strategy.ec.europa.eu/en/policies/electronic-identification)  
-- [Q&A Digital Identity Regulation Proposal](https://digital-strategy.ec.europa.eu/en/faqs/qa-digital-identity-regulation-proposal)  
-- [European Digital Identity Wallet Toolbox Process](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox)  
-- [European Digital Identity Wallet Pilot implementation (Prototype and Large Scale Pilots)](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation)  
+[EU Digital Identity Wallet
+](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/)
