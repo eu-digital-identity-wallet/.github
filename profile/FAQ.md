@@ -3,7 +3,7 @@
 # EUDI Wallet Reference Implementation 
 ## Frequently Asked Questions
 
-A list of freqeuntly asked questions are consolidated in order to assist you with possible queries related to the EUDI Wallet Reference Implementation. Please refer to the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/README.md) for the corresponding technical specifications and the [EUDI Wallet Reference Implementation](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md) overview page for further information.
+A list of frequently asked questions are consolidated in order to assist you with possible queries related to the EUDI Wallet Reference Implementation. Please refer to the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/README.md) for the corresponding technical specifications and the [EUDI Wallet Reference Implementation](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md) overview page for further information.
 
 <Details>
  <summary>What are the specifications on which the Wallet Reference Implementation is based on?</summary> 
@@ -51,19 +51,19 @@ The baseline for the reference implementation is the ARF. Hence, we will be supp
 <Details>
  <summary>What are the protocols supported for issuing?</summary> 
  
-The baseline for the reference implementation is the ARF. Hence, we will be supporting OpenId4VCI-draft 12.
+The baseline for the reference implementation is the ARF. Hence, we will be supporting OpenId4VCI. For the currently supported version, please check the corresponding library.
 </Details>
 
 <Details>
  <summary>What are the formats that we will be using for Personal Identification Data (PID)?</summary> 
  
-According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release end to end too.
+According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release.
 </Details>
 
 <Details>
  <summary>What are the formats that we will be using for mDL, (Q)EAA?</summary> 
  
-According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release end to end too.
+According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release.
 </Details>
 
 <Details>
@@ -77,8 +77,4 @@ Security and units tests have been executed; details of the corresponding tests 
 For any technical issues related with the code, please contact us through the “Issues” service of the corresponding GitHub Repository. For any other issues, please get in touch through: [CNECT-EUDIW-SUPPORT@ec.europa.eu](mailto:CNECT-EUDIW-SUPPORT@ec.europa.eu)
 
 ## About the project
-Links for additional information:  
--  [Electronic Identification](https://digital-strategy.ec.europa.eu/en/policies/electronic-identification)  
--  [Q&A Digital Identity Regulation Proposal](https://digital-strategy.ec.europa.eu/en/faqs/qa-digital-identity-regulation-proposal)  
--  [European Digital Identity Wallet Toolbox Process](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox)  
--  [European Digital Identity Wallet Pilot implementation (Prototype and Large Scale Pilots)](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation)  
+[Read more about the project](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET)
