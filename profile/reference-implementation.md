@@ -141,26 +141,32 @@ This section provides an overview of the key repositories of the EUDI Reference 
 |---------------|-------------------------------------------------------------------------------|
 | [mDoc Document Storage (Android)](https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-document-manager)    | This library provides a set of classes to manage documents and their cryptographic keys in an EUDI Android Wallet. |
 
-## Wallet UI App and demo App for Android and iOS
+### Wallet UI App and demo App for Android and iOS
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [UI / Demo App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) | Implementation of wallet UI app for Android. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, Same Device Online Authentication and issuing of PID and mDL.	 |
 | [UI / Demo App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui) | Implementation of wallet UI app for iOS. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, and Same Device Online Presentation and issuing of PID and mDL.| 
 
-## Verifier Apps and Services
+### Verifier Apps and Services
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [Web Verifier](https://github.com/eu-digital-identity-wallet/eudi-web-verifier)               | Demo Web Verifier UI application (Frontend) that acts as a Verifier/RP trusted end-point. Available at [https://verifier.eudiw.dev](https://verifier.eudiw.dev)  |  
 | [Restful API (web-services)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-verifier-endpoint-23220-4-kt)             | Demo Web Verifier application (Backend Restful service) that acts as a Verifier/RP trusted end-point.| 
 
-## Issuing Apps and Services
+### Issuing Apps and Services
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
 | [OpenId4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in Python. Available at https://issuer.eudiw.dev/  |  
 | [OpenId4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenId4VCI (draft 13), in JVM Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
+
+### Signing Apps and Services
+
+| Repository          | Description                                                                   |
+|---------------|-------------------------------------------------------------------------------|
+| [Trust Provider Signer](https://github.com/eu-digital-identity-wallet/eudi-srv-web-trustprovider-signer-java)               | Trust Provider Signer is a remote signing service provider and client in Java  |  
 
 # FAQ and 'How To' guides
 
