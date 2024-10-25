@@ -53,14 +53,14 @@ A high level overview of the used repositories for the Android platform can be f
 ```mermaid
 graph TD;
     A[eudi-app-android-wallet-ui]
-    B[eudi-lib-android-wallet-core] -->  |Wallet Core|A 
-    C[eudi-lib-android-wallet-document-manager] -->  |DocumentManager|B 
-    D[eudi-lib-android-iso18013-data-transfer] --> |TransferManager|B 
-    E[eudi-lib-jvm-openid4vci-kt] --> |OpenId4VciManager|B 
-    F[eudi-lib-jvm-siop-openid4vp-kt] --> |OpenId4VpManager|B 
-    G[com.android.identity:identity-credential-android] --> |SecureArea,StorageEngine|B 
-    H --> D 
-    I[eudi-lib-jvm-presentation-exchange] --> F 
+    B[eudi-lib-android-wallet-core] --> |WalletCore| A
+    C[eudi-lib-android-wallet-document-manager] --> |DocumentManager| B
+    D[eudi-lib-android-iso18013-data-transfer] --> |TransferManager| B
+    E[eudi-lib-jvm-openid4vci-kt] --> |OpenId4VciManager| B
+    F[eudi-lib-jvm-siop-openid4vp-kt] --> |OpenId4VpManager| B
+    G[com.android.identity:identity-credential-android] --> |SecureArea,StorageEngine| C
+    G --> D
+    H[eudi-lib-jvm-presentation-exchange] --> F
 ```
 
 ### iOS Overview
