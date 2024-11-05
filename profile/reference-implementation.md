@@ -145,8 +145,8 @@ This section provides an overview of the key repositories of the EUDI Reference 
 
 | Repository          | Description                                                                   |
 |---------------|-------------------------------------------------------------------------------|
-| [UI / Demo App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) | Implementation of wallet UI app for Android. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, Same Device Online Authentication and issuing of PID and mDL.	 |
-| [UI / Demo App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui) | Implementation of wallet UI app for iOS. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, and Same Device Online Presentation and issuing of PID and mDL.| 
+| [UI / Demo App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) | Implementation of wallet UI app for Android. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, Remote Presentation and issuing of PID and mDL.	 |
+| [UI / Demo App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui) | Implementation of wallet UI app for iOS. Currently, it also includes Demo App, demonstrating the following capabilities: Proximity presentation, and Remote Presentation and issuing of PID and mDL.| 
 
 ### Verifier Apps and Services
 
