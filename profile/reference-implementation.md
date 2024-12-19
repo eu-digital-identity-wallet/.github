@@ -62,7 +62,7 @@ Comments and contributions on the codebase of the EUDI Wallet Reference Implemen
 
 <Details>
 <summary>Roadmap suggestions</summary> 
-If you have any questions or comments about the features listed on the roadmap or wish to suggest new features, please reach out via the <a href="https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/discussions)">Discussions forum</a>.
+If you have any questions or comments about the features listed on the roadmap or wish to suggest new features, please reach out via the <a href="https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/discussions">Discussions forum</a>.
 </Details>
 
 <Details>
