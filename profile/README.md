@@ -21,7 +21,7 @@ Consumers should also be able to access services online without having to use pr
 
 ## Architecture and Reference Framework
 
-On 3 June 2021, the European Commission adopted a Recommendation calling on Member States to work towards the development of a [a common toolbox](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox) including a technical [Architecture and Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md) a set of common standards and technical specifications and a set of common guidelines and best practices.
+On 3 June 2021, the European Commission adopted a Recommendation calling on Member States to work towards the development of a [a common toolbox](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox) including a technical [Architecture and Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/architecture-and-reference-framework-main.md) a set of common standards and technical specifications and a set of common guidelines and best practices.
 
 The new Regulation specifies that these outcomes will serve as a basis for the implementation of the proposal for a European Digital Identity Framework, without the process of developing the Toolbox interfering with, or prejudging the legislative process.
 
@@ -30,7 +30,7 @@ Digital Identity (EUDI) Wallet infrastructure, other concerned public and privat
 
 The current **authoritative version** is tagged as [release/tag in this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/releases).
 
-The EUDI Wallet Reference Implementation below is built based on the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md).
+The EUDI Wallet Reference Implementation below is built based on the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/architecture-and-reference-framework-main.md).
 
 ## ⭐Wallet Reference Implementation - Open Source Code
 
