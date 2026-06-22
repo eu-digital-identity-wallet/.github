@@ -1,6 +1,4 @@
 
-[Digital Strategy](https://digital-strategy.ec.europa.eu//en)> [Policies](https://digital-strategy.ec.europa.eu/en/policies)>[Electronic Identification](https://digital-strategy.ec.europa.eu//en/policies/electronic-identification)
-
 ![Digital Identity for all Europeans - A personal digital wallet for EU citizens and residents](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner.png)
 
 # EU Digital Identity Wallet
@@ -87,12 +85,4 @@ Frequently Asked Question about the Digital Identity Regulation
 
 22 June 2026
 
-# [European Commission website](https://commission.europa.eu/index_en)
-
-* [Privacy statement](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gfb8o)
-* [Copyright notice ](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gezfs)
-* [About Directorate-General CONNECT ](https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en)
-* [Language Policy ](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-kyoexp6k)
-* [Accessibility statement ](https://digital-strategy.ec.europa.eu/en/pages/accessibility)
- 
 
