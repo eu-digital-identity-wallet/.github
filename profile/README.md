@@ -1,7 +1,7 @@
 
 ![Digital Identity for all Europeans - A personal digital wallet for EU citizens and residents](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner.png)
 
-# EU Digital Identity Wallet
+# EU Digital Identity
 
 ## European Digital Identity (EUDI) Regulation
 
