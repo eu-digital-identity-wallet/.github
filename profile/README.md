@@ -3,18 +3,32 @@
 
 ![Digital Identity for all Europeans - A personal digital wallet for EU citizens and residents](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner.png)
 
-# EU Digital Identity Wallet 
-## Digital Identity Regulation
+# EU Digital Identity Wallet
 
-Under the [Electronic Identification, Authentication and Trust Services (eIDAS) Regulation](https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation), EU Member States may, on a voluntary basis, notify and recognise, national electronic identification schemes in their Member States. The recognition of notified electronic identification became mandatory in 2018.
-Yet, there is no requirement for Member States to develop a national electronic identification and to make it interoperable with those in other Member States. This has led to discrepancies between countries.
-The new Regulation on digital identity addresses shortcomings in eIDAS by improving the effectiveness of the framework and extending its benefits to the private sector.
-Member States will offer citizens and businesses digital wallets that will be able to link various aspects of their national digital identities. These may be provided by public authorities or the private sector, if they are recognized by the Member States.
+## European Digital Identity (EUDI) Regulation
+
+Under the [European Digital Identity (EUDI) Regulation (EU) 910/2014](https://eur-lex.europa.eu/eli/reg/2014/910),
+EU Member States may, on a voluntary basis, notify and recognise national electronic identification
+schemes in their Member States. The recognition of notified electronic
+identification became mandatory in 2018. Yet, there is no requirement for
+Member States to develop a national electronic identification and to make it
+interoperable with those in other Member States. This has led to discrepancies
+between countries.
+
+It was subsequently amended by [Regulation (EU) 2024/1183](https://eur-lex.europa.eu/eli/reg/2024/1183/oj)
+to address these shortcomings, improving the effectiveness of the framework and
+extending its benefits to the private sector. The amending Regulation entered into
+force on 20 May 2024, and each Member State is to make at least one EU Digital
+Identity Wallet available to its citizens and residents by the end of 2026.
+Member States will offer citizens and businesses digital wallets that will be
+able to link various aspects of their national digital identities. These may be
+provided by public authorities or the private sector, if they are recognized by
+the Member States.
 
 The EU Digital Identity Wallet will be:
 
-* **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
-* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
+* **made available to anyone who wants to use it**: Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
+* **used widely**: EU Digital Identity Wallets will be used as a way to identify users when providing them with access to public and private digital services across the EU.
 * **controlled by users**: The EU Digital Identity Wallets will enable people to choose and keep track of their identity, data and certificates which they share with third parties. Anything which is not necessary to share will not be shared.
 
 Consumers should also be able to access services online without having to use private platforms or unnecessarily sharing personal data. They will have full control of the data they share.
@@ -28,7 +42,7 @@ The new Regulation specifies that these outcomes will serve as a basis for the i
 The new Regulation foresees that the Toolbox is developed by Member States’ experts in the eIDAS Expert Group  in close coordination with the Commission and, where relevant for the functioning of the European
 Digital Identity (EUDI) Wallet infrastructure, other concerned public and private sector parties.
 
-The current **authoritative version** is tagged as [release/tag in this repository](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework/releases).
+The current **authoritative version** is published as a tagged [release in the ARF repository](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases).
 
 The EUDI Wallet Reference Implementation below is built based on the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/architecture-and-reference-framework-main.md).
 
@@ -40,7 +54,6 @@ The EUDI Wallet Reference Implementation aims at showcasing a robust and interop
 
 
 Embark on the journey by exploring more about the [EUDI Wallet Reference Implementation](./reference-implementation.md) or get started with your implementation using the [EUDI Wallet DevHub](https://eu-digital-identity-wallet.github.io/).
-
 
 
 ## Related Content
@@ -57,7 +70,7 @@ Frequently Asked Question about the Digital Identity Regulation
 
 #### Last update
 
-26 July 2024
+22 June 2026
 
 ## About us
 

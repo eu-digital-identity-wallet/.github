@@ -8,7 +8,7 @@ A list of frequently asked questions are consolidated in order to assist you wit
 <Details>
  <summary>What are the specifications on which the Wallet Reference Implementation is based on?</summary> 
  
-The Wallet Reference Implementation is based on the <a href="https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework">Architecture Reference Framework</a>.
+The Wallet Reference Implementation is based on the <a href="https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework">Architecture and Reference Framework (ARF)</a>.
 </Details>
 
 <Details>
@@ -25,7 +25,7 @@ We encourage you to contribute or provide your feedback/suggestion for the EUDI 
 - _Code contributions_:
 Comments and contributions on the codebase of the EUDI Wallet Reference Implementation are welcomed through the corresponding Github space.
 - _Roadmap suggestions_:
-If you have any questions or comments about the features listed on the roadmap or wish to suggest new features, please reach out via the <a href="https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/discussions)">Discussions forum</a>.
+If you have any questions or comments about the features listed on the roadmap or wish to suggest new features, please reach out via the <a href="https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/discussions">Discussions forum</a>.
 - _Other feedback_:
 A designated mailbox CNECT-EUDIW-SUPPORT@ec.europa.eu is available where any queries related to the Wallet Reference Implementation can be addressed.
 </Details>
@@ -39,7 +39,7 @@ For Android it will mainly be Kotlin and for the iOS it will mainly be Swift (so
 <Details>
  <summary>What are the protocols supported for online – remote authentication?</summary> 
  
-The baseline for the reference implementation is the ARF. Hence, we will be supporting OID4VP using the profile of ISO23220-4 Annex B.
+The baseline for the reference implementation is the ARF. Hence, we support OpenID4VP for online/remote presentation, in line with the ARF and the High Assurance Interoperability Profile (HAIP).
 </Details>
 
 <Details>
@@ -57,13 +57,13 @@ The baseline for the reference implementation is the ARF. Hence, we will be supp
 <Details>
  <summary>What are the formats that we will be using for Personal Identification Data (PID)?</summary> 
  
-According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release.
+According to the ARF and the corresponding rulebooks, both formats are supported by the reference implementation: the mdoc format (ISO/IEC 18013-5, CBOR) and the SD-JWT VC format.
 </Details>
 
 <Details>
  <summary>What are the formats that we will be using for mDL, (Q)EAA?</summary> 
  
-According to the ARF and the corresponding PID rulebook, we will be supporting both mDoc and SD-JWT format. At the momment, mDoc (CBOR) is supported. Alternative formats such as SD-JWT VC will be incorporated in a future release.
+According to the ARF and the corresponding rulebooks, both formats are supported by the reference implementation: the mdoc format (ISO/IEC 18013-5, CBOR) and the SD-JWT VC format.
 </Details>
 
 <Details>

@@ -4,7 +4,7 @@
 
 ## Overview
 
-The EUDI Wallet Reference Implementation is built based on the [Architecture Reference Framework](https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework) and aims at showcasing a robust and interoperable platform for digital identification, authentication and electronic signatures based on common standards across the European Union.
+The EUDI Wallet Reference Implementation is built based on the [Architecture and Reference Framework (ARF)](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework) and aims at showcasing a robust and interoperable platform for digital identification, authentication and electronic signatures based on common standards across the European Union.
 
 The EUDI Wallet Reference Implementation is based on a modular architecture composed of a set of business agnostic, re-usable components which are evolved in incremental steps and can be re-used across multiple projects.
 
@@ -60,7 +60,7 @@ Explore the [EUDI Wallet Dev Hub](https://eu-digital-identity-wallet.github.io/)
 We encourage you to contribute or provide your feedback/suggestion for the EUDI Wallet Reference Implementation. Depending on the type of feedback you wish to provide, you may utilise one of the following channels:
 <Details>
  <summary>Code contributions</summary> 
-Comments and contributions on the codebase of the EUDI Wallet Reference Implementation are welcomed through the corresponding <a href="https://github.com/eu-digital-identity-wallet/architecture-and-reference-framework">Github space</a>. 
+Comments and contributions on the codebase of the EUDI Wallet Reference Implementation are welcomed through the corresponding repositories in the <a href="https://github.com/eu-digital-identity-wallet">EUDI Wallet GitHub organisation</a> (see the <a href="./repositories-list.md">Repositories list</a>). 
 </Details>
 
 <Details>
@@ -70,12 +70,12 @@ If you have any questions or comments about the features listed on the roadmap o
 
 <Details>
  <summary>Other feedback</summary> 
-A designated mailbox <a href="CNECT-EUDIW-SUPPORT@ec.europa.eu">CNECT-EUDIW-SUPPORT@ec.europa.eu</a> is available where any queries related to the Wallet Reference Implementation can be addressed.
+A designated mailbox <a href="mailto:CNECT-EUDIW-SUPPORT@ec.europa.eu">CNECT-EUDIW-SUPPORT@ec.europa.eu</a> is available where any queries related to the Wallet Reference Implementation can be addressed.
 </Details>
 
 # Disclaimer
 
-The released software is a initial development release version: 
+The released software is an initial development release version: 
 
 - The initial development release is an early endeavor reflecting the efforts of a short timeboxed period, and by no means can be considered as the final product.  
 - The initial development release may be changed substantially over time, might introduce new features but also may change or remove existing ones, potentially breaking compatibility with your existing code.

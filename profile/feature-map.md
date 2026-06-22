@@ -83,7 +83,7 @@ _The 'Issuance' functionality is aligned with the OpenID4VCI protocol and as suc
   <summary>Covers applicable presentation flows in alignment with OpenID4VP and ISO/IEC 18013-5. Expand to explore detailed functional specifications for the 'Presentation' capabilities.</summary>
   
 
-_The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for remote presentation flows) and as such is being continuously updated in alignment with the [evolving standards and protocols](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)._
+_The 'Presentation' functionality is aligned with the OpenID4VP protocol (for remote presentation flows) and as such is being continuously updated in alignment with the [evolving standards and protocols](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)._
 
 | Feature                         | Description                              |   Status     |
 |:---------------------------------|:-------------------------------|:------------:|
@@ -231,7 +231,7 @@ _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for r
 
 | Feature                         | Description                              |  Status     |
 |:----------|:-------------------|:-------:|
-|[Migrate to a different wallet](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/33)| Pocedures for migrating backd-up attestations of a wallet unit to a different Wallet Solution.   |  Planned |
+|[Migrate to a different wallet](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/33)| Procedures for migrating backed-up attestations of a wallet unit to a different Wallet Solution.   |  Planned |
 
 
 </details>
@@ -272,7 +272,7 @@ For further attestations supported by the EUDI Wallet Reference Implementation y
 
 ### _Business Demos_
 
-A set of demo implementations mocking business flows in different contexts are available, aiming to showcasing the EUDI Wallet functionalities in real-life scenarios. 
+A set of demo implementations mocking business flows in different contexts are available, aiming to showcase the EUDI Wallet functionalities in real-life scenarios. 
 
 | Business Scenario                         | Description                              |  Status     |
 |:-----------|:-----------------|:---------:|
