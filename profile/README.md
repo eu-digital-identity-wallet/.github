@@ -87,22 +87,12 @@ Frequently Asked Question about the Digital Identity Regulation
 
 22 June 2026
 
-## About us
+# [European Commission website](https://commission.europa.eu/index_en)
 
 * [Privacy statement](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gfb8o)
 * [Copyright notice ](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gezfs)
 * [About Directorate-General CONNECT ](https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en)
 * [Language Policy ](https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-kyoexp6k)
 * [Accessibility statement ](https://digital-strategy.ec.europa.eu/en/pages/accessibility)
-
-## [European Commission website](https://commission.europa.eu/index_en)
-
-* [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en)
-* [Follow the European Commission on social media ](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission)
-* [Resources for partners](https://commission.europa.eu/resources-partners_en)
-* [Language policy](https://commission.europa.eu/language-policy_en)
-* [Cookies](https://commission.europa.eu/cookies_en)
-* [Privacy policy](https://commission.europa.eu/privacy-policy_en)
-* [Legal notice](https://commission.europa.eu/legal-notice_en)
-
+ 
 
