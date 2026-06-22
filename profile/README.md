@@ -33,6 +33,10 @@ The EU Digital Identity Wallet will be:
 
 Consumers should also be able to access services online without having to use private platforms or unnecessarily sharing personal data. They will have full control of the data they share.
 
+## Implementing Acts
+
+The European Digital Identity (EUDI) Regulation is complemented by a series of Commission Implementing Regulations (CIRs) — covering wallet integrity and core functionalities, person identification data (PID) and attestations, certification, protocols and interfaces, relying-party registration, the list of certified wallets, and trust services. The consolidated list is referenced in the [Architecture and Reference Framework on eudi.dev](https://eudi.dev), with the authoritative legal texts published on [EUR-Lex](https://eur-lex.europa.eu/).
+
 ## Architecture and Reference Framework
 
 On 3 June 2021, the European Commission adopted a Recommendation calling on Member States to work towards the development of a [a common toolbox](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-toolbox) including a technical [Architecture and Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/architecture-and-reference-framework-main.md) a set of common standards and technical specifications and a set of common guidelines and best practices.
@@ -55,6 +59,17 @@ The EUDI Wallet Reference Implementation aims at showcasing a robust and interop
 
 Embark on the journey by exploring more about the [EUDI Wallet Reference Implementation](./reference-implementation.md) or get started with your implementation using the [EUDI Wallet DevHub](https://eu-digital-identity-wallet.github.io/).
 
+## 📚 Documentation & Resources
+
+The EUDI Wallet documentation is organised across dedicated spaces. Use the table below to find the information you need:
+
+| Topic | Where to find it |
+|:------|:-----------------|
+| **Wallet design & technical specifications** (Architecture and Reference Framework) | [eudi.dev](https://eudi.dev) |
+| **Reference Implementation documentation** | [docs.eudi.dev](https://docs.eudi.dev) |
+| **Conformance framework** | [conformance.eudi.dev](https://conformance.eudi.dev) |
+| **Frequently Asked Questions (FAQ)** | [EUDI Wallet FAQ](https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/713526976/FAQ) |
+| **Official EUDI Wallet website** | [EU Digital Identity Wallet Home](https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694487738/EU+Digital+Identity+Wallet+Home) |
 
 ## Related Content
 
